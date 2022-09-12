@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+}
+.navbar{
+background: white;
+height: 13vh;
+padding: 0 100px;
+}
+.navbar .navbar-brand img{
+width: 140px;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link{
+padding: 0px 15px;
+color:  #004289;
+}
+.navbar .collapse .navbar-nav .nav-item :hover{
+color: #007bff;
+}
+.navbar .collapse .navbar-nav .nav-item .dropdown button{
+    background-color: white;
+    border: 0;
+    color:  #004289;
+}
+.navbar .collapse .navbar-nav .nav-item .dropdown button:hover{
+    color: #007bff;
+}
+.home{
+    width: 100%;
+    height: 90vh;
+background-size: cover;
+border-bottom: 0px solid;
+background-repeat: no-repeat;
+}
+.home .card{
+    color: white;
+    width: 100%;
+    height: 100vh;
+    border: 0px;
+    padding: 0px 50px;
+    background-image: url(https://boostrap-task.web.app/assets/img/hero-bg.png);
+    border-bottom-left-radius:30%;
+border-bottom-right-radius:30%;
+
+}
+.home .card .row  {
+    width: 100%;
+    margin-right: 0;
+padding-right: 0;
+border: 0px;
+}
+.home .card .row  .h1 {
+margin-top: 150px;
+font-size: 50px;
+
+}
+.home .card .row  .h1 h1{
+font-size: 50px;
+font-weight: bold;
+}
+.home .card .row  .button {
+display: flex;
+margin-top: 20px;
+
+}
+.home .card .row  .button .btn{
+    border: 0px solid white;
+
+}
+.home .card .row  .button a{
+    border: 1px solid white;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 10px 30px;
+    margin:20px 10px;
+    color: white;
+}
+.home .card .row  .button a:hover{
+    border: 0px solid white;
+    background-color:#007bff;
+    text-decoration: none;
+}
+
+.home .card img{
+    margin-top: 200px;
+width:70%;
+float: right;
+height: 400px;
+}
+.section{
+    height: 100vh;
+    margin-top: 100px
+}
+.section .card{
+    width: 100%;
+    height: 100vh;
+    border: 0px;
+    padding: 0px 50px;
+;
+}
+.section .card .row .card-body {
+    width: 100%;
+    margin-right: 0;
+padding-right: 0;
+border: 0px;
+}
+.section .card .row .card-body .list-group .list-group-item {
+color: #004289;
+border: 0px;
+}
+.section .card .row .card-body .list-group .list-group-item i{
+border-radius: 50%;
+border: 1px solid  #007bff;
+padding: 20px;
+color:  #007bff;
+font-size: 20px;
+}
+.section .card .row .card-body .list-group .list-group-item :hover i{
+background-color:  #007bff;
+color: white;
+}
+.section .card img{
+width:100%;
+height: 600px;
+}
+.head{
+    text-align: center;
+    margin: auto;
+    width: 40%;
+    padding-top: 20px;
+}
+.section2 .card {
+    width: 100%;
+    height: 70vh;
+    border: 0px;
+    padding: 0 50px;
+}
+.section2 .card .card-body{
+margin-top: 100px;
+}
+.section2 .card .row img{
+    width:100%;
+    height: 600px;
+}
+.section3 .card {
+    width: 100%;
+    height: 80vh;
+    border: 0px;
+    padding: 0 50px;
+    margin-bottom: 50px;
+}
+.section3 .card .card-body{
+margin-top: 100px;
+}
+.section3 .card .row img{
+    width:100%;
+    height: 600px;
+}
+.section4{
+    height: 120vh;
+    background-color:  #7fa2e061;
+}
+.section4 .container-fluid  {
+    width: 80%;
+    margin: auto;
+}
+.section4 .container-fluid .row{
+margin: 0;
+width: 100%;
+}
+.section4 .container-fluid .row .card{
+height: 150px;
+margin: 20px;
+border: 0 solid;
+border-radius: 10px;
+}
+.section4 .container-fluid .row .card i{
+font-size: 40px;
+margin-top: 40px;
+}
+.section5{
+    height: 100vh;
+    background-color: #004289;
+    color: white;
+}
+.section5 .container-fluid .row {
+    width: 100%;
+padding: 0 50px;
+margin: auto;
+margin-top: 50px;
+}
+.section5 .container-fluid .row .card{
+    background-color: #093e76;
+    border: 0;
+    text-align: center;
+   margin:auto;
+   height: 350px;
+   color: white;
+}
+.section5 .container-fluid .row .card i{
+    font-size: 40px;
+    margin-top: 40px;
+    color: white;
+}
+.section5 .foot{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+@media(max-width:750px) {
+    .navbar{
+        height: 13vh;
+        padding: 0 20px;
+        }
+    .home{
+        height: 1000px;
+    }
+    .home .card{
+        padding: 0px 40px;
+        border-bottom-left-radius:20%;
+    border-bottom-right-radius:20%;
+    height: 620px;
+    
+    }
+    .home .card .row  .h1 {
+    margin-top: 150px;
+    font-size: 50px;
+    
+    }
+    .home .card .row  .h1 h1{
+    font-size: 50px;
+    font-weight: bold;
+    }
+    .home .card .row  .button {
+    margin-top: 5px;
+    text-align: center;
+    }
+    .home .card .row  .button a{
+        padding: 10px 30px;
+        margin:20px 10px;
+    }
+    .home .card img{
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    }
+    .section{
+        height: 1600px;
+        margin-top: 0px;
+    }
+    .section .card{
+        padding: 0px 10px;
+        height:20vh;
+
+    }
+    .section .card .row .card-body {
+        width: 100%;
+    }
+    .section .card img{
+    width:100%;
+    height: 600px;
+    }
+    .head{
+        text-align: center;
+        margin: auto;
+        width: 90%;
+        padding-top: 20px;
+    }
+    .section2
+    {
+        height: 800px;
+    }
+    .section2 .card {
+
+        padding: 0 10px;
+    }
+    .section2 .card .card-body{
+    margin-top: 10px;
+    }
+    .section2 .card .row img{
+
+        height: 300px;
+    }
+    .section3 {
+        height: 1100px;
+    }
+    .section3 .card {
+        height: 80vh;
+        padding: 0 10px;
+
+    }
+    .section3 .card .card-body{
+    margin-top: 50px;
+    }
+    .section3 .card .row img{
+        height: 400px;
+    }
+    .section4{
+        height: 2200px;
+    }
+    .section4 .container-fluid  {
+        width: 90%;
+    }
+    .section4 .container-fluid .row{
+    margin: 0;
+    }
+    .section4 .container-fluid .row .card{
+    height: 300px;
+    margin: 0px;
+    }
+    .section5{
+        height: 1800px;
+    }
+    .section5 .container-fluid .row {
+        width: 100%;
+    padding: 0 10px;
+    }
+    .section5 .container-fluid .row .card{
+       height: 350px;
+       margin-top: 20px;
+    }
+    .section5 .foot{
+        text-align: center;
+        display: block;
+        margin: 20px 110px;
+    }
+    
+}
